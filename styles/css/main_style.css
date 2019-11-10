@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "box1 box2 box3" "box4 box5 box6" "box7 box8 box9";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.box img {
+  max-width: 440px;
+  max-height: auto;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.box1 {
+  grid-area: "box1";
+}
+
+.box2 {
+  grid-area: "box2";
+}
+
+.box4 {
+  grid-area: "box4";
+}
+
+.box5 {
+  grid-area: "box5";
+}
+
+.box6 {
+  grid-area: "box6";
+}
+
+.box7 {
+  grid-area: "box7";
+}
+
+.box8 {
+  grid-area: "box8";
+}
+
+.box9 {
+  position: relative;
+  grid-area: "box9";
+  max-width: 440px;
+  height: auto;
+  width: 100%;
+  padding: 25px;
+  background-color: #ddd7be;
+}
+.box9 img {
+  width: 30%;
+  display: inline-block;
+}
+.box9 figure,
+.box9 footer {
+  text-align: end;
+}
+.box9 footer {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  padding-right: 25px;
+}
+.box9 .heading {
+  margin: 20px 0;
+}
+.box9 .heading h1,
+.box9 .heading h4,
+.box9 .heading p {
+  padding: 2px 0;
+}
+.box9 .heading h1,
+.box9 .heading h4 {
+  text-transform: uppercase;
+}
+.box9 .heading h1 {
+  font-weight: 500;
+}
+.box9 .heading h4 {
+  font-weight: 500;
+  font-size: 0.8em;
+}
+.box9 .heading p {
+  font-weight: 300;
+}
+.box9 article p {
+  font-size: 0.9em;
+  margin-bottom: 12px;
+}
+
+/*# sourceMappingURL=main_style.css.map */
